@@ -10,7 +10,7 @@ public class Adapter {
         Queue<String> result = new LinkedList<>();
         BufferedReader inputStream;
         try {
-            inputStream = new BufferedReader(new FileReader("C://IdeaProjects//java//src//deposits.txt"));
+            inputStream = new BufferedReader(new FileReader("output//deposits.txt"));
             String l;
             while((l = inputStream.readLine()) != null) {
                 result.add(l);
