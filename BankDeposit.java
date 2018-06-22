@@ -1,3 +1,7 @@
+public enum CapitalizationType {
+    MONTH, QUARTAL, YEAR
+}
+
 public class BankDeposit {
 
     private String bankName;
